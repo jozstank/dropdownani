@@ -67,9 +67,7 @@ a {
   margin-top: 10px;
   gap: 3px;
   display: none;
-}
-.container nav ul .dropdown ul.dropItems li a {
-  display: block;
+  z-index: 2;
 }
 .container nav ul .dropdown:hover .dropItems {
   display: block;
